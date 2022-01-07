@@ -1,0 +1,8 @@
+# check if a String is a Palindrome
+
+phrase = 'madam'
+
+def palindrome(string):
+    string = string.lower().replace(' ', '')
+    return string == string[::-1]
+print(palindrome(phrase))
