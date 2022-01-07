@@ -1,0 +1,7 @@
+def isAnEvenNum(list):
+    enum = []
+    for n in list:
+        if n % 2 == 0:
+            enum.append(n)
+    return enum
+print(isAnEvenNum([11, 12, 13, 24, 25, 26, 37, 38, 39]))
